@@ -1,5 +1,12 @@
 import React, { useEffect } from 'react'
 
+import imgcabin from "../../img/cabin.png"
+import imgcake from "../../img/cake.png"
+import imgcircus from "../../img/circus.png"
+import imggame from "../../img/game.png"
+import imgsafe from "../../img/safe.png"
+import imgsubmarine from "../../img/submarine.png"
+
 export default function Portfolio() {
     // Component didMount
     // useEffect(() => {} ,[])
@@ -19,7 +26,7 @@ export default function Portfolio() {
             <div className="row g-5 mt-1">
                 <div className="col-md-6 col-lg-4 ">
                     <div className="portfolio-item position-relative" data-bs-toggle="modal" data-bs-target="#firstmodal">
-                        <img className='w-100' src="img/cabin.png" alt="item-portfolio" />
+                        <img className='w-100' src={imgcabin} alt="item-portfolio" />
                         <div className="layer-custom position-absolute top-0 b w-100 h-100 d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-plus fa-3x text-white"></i>
                         </div>
@@ -27,7 +34,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col-md-6 col-lg-4 ">
                     <div className="portfolio-item position-relative" data-bs-toggle="modal" data-bs-target="#secondmodal">
-                        <img className='w-100' src="img/cake.png" alt="item-portfolio" />
+                        <img className='w-100' src={imgcake} alt="item-portfolio" />
                         <div className="layer-custom position-absolute top-0 b w-100 h-100 d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-plus fa-3x text-white"></i>
                         </div>
@@ -35,7 +42,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col-md-6 col-lg-4 ">
                     <div className="portfolio-item position-relative" data-bs-toggle="modal" data-bs-target="#thirddmodal">
-                        <img className='w-100' src="img/circus.png" alt="item-portfolio" />
+                        <img className='w-100' src={imgcircus} alt="item-portfolio" />
                         <div className="layer-custom position-absolute top-0 b w-100 h-100 d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-plus fa-3x text-white"></i>
                         </div>
@@ -43,7 +50,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col-md-6 col-lg-4 ">
                     <div className="portfolio-item position-relative" data-bs-toggle="modal" data-bs-target="#forthdmodal">
-                        <img className='w-100' src="img/game.png" alt="item-portfolio" />
+                        <img className='w-100' src={imggame} alt="item-portfolio" />
                         <div className="layer-custom position-absolute top-0 b w-100 h-100 d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-plus fa-3x text-white"></i>
                         </div>
@@ -51,7 +58,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col-md-6 col-lg-4 ">
                     <div className="portfolio-item position-relative" data-bs-toggle="modal" data-bs-target="#fifthhdmodal">
-                        <img className='w-100' src="img/safe.png" alt="item-portfolio" />
+                        <img className='w-100' src={imgsafe} alt="item-portfolio" />
                         <div className="layer-custom position-absolute top-0 b w-100 h-100 d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-plus fa-3x text-white"></i>
                         </div>
@@ -59,7 +66,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col-md-6 col-lg-4 ">
                     <div className="portfolio-item position-relative"  data-bs-toggle="modal" data-bs-target="#Sixthdmodal">
-                        <img className='w-100' src="img/submarine.png" alt="item-portfolio" />
+                        <img className='w-100' src={imgsubmarine} alt="item-portfolio" />
                         <div className="layer-custom position-absolute top-0 b w-100 h-100 d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-plus fa-3x text-white"></i>
                         </div>
@@ -74,7 +81,7 @@ export default function Portfolio() {
             <div className="modal-content">
                 <div className="modal-body">
                     <h2>LOG CABIN</h2>
-                    <img className='w-100' src="img/cabin.png" alt="item-portfolio" />
+                    <img className='w-100' src={imgcabin} alt="item-portfolio" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                     <button className='btn btn-info' data-bs-dismiss="modal">Close Window</button>
                 </div>
@@ -87,7 +94,7 @@ export default function Portfolio() {
             <div className="modal-content">
                 <div className="modal-body">
                     <h2>TASTY CAKE</h2>
-                    <img className='w-100' src="img/cake.png" alt="item-portfolio" />
+                    <img className='w-100' src={imgcake} alt="item-portfolio" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                     <button className='btn btn-info' data-bs-dismiss="modal">Close Window</button>
                 </div>
@@ -100,7 +107,7 @@ export default function Portfolio() {
             <div className="modal-content">
                 <div className="modal-body">
                     <h2>CIRCUS TENT</h2>
-                    <img className='w-100' src="img/circus.png" alt="item-portfolio" />
+                    <img className='w-100' src={imgcircus} alt="item-portfolio" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                     <button className='btn btn-info' data-bs-dismiss="modal">Close Window</button>
                 </div>
@@ -113,7 +120,7 @@ export default function Portfolio() {
             <div className="modal-content">
                 <div className="modal-body">
                     <h2>CONTROLLER</h2>
-                    <img className='w-100' src="img/game.png" alt="item-portfolio" />
+                    <img className='w-100' src={imggame} alt="item-portfolio" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                     <button className='btn btn-info' data-bs-dismiss="modal">Close Window</button>
                 </div>
@@ -126,7 +133,7 @@ export default function Portfolio() {
             <div className="modal-content">
                 <div className="modal-body">
                     <h2>LOCKED SAFE</h2>
-                    <img className='w-100' src="img/safe.png" alt="item-portfolio" />
+                    <img className='w-100' src={imgsafe} alt="item-portfolio" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                     <button className='btn btn-info' data-bs-dismiss="modal">Close Window</button>
                 </div>
@@ -139,7 +146,7 @@ export default function Portfolio() {
             <div className="modal-content">
                 <div className="modal-body">
                     <h2>SUBMARINE</h2>
-                    <img className='w-100' src="img/submarine.png" alt="item-portfolio" />
+                    <img className='w-100' src={imgsubmarine} alt="item-portfolio" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                     <button className='btn btn-info' data-bs-dismiss="modal">Close Window</button>
                 </div>
